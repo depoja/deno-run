@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 const { spawn } = require("child_process");
 
-deno = spawn("docker", [
+const deno = spawn("docker", [
   "run",
   "--rm",
   "-v",
   `${process.cwd()}:/opt`,
   "maxmcd/deno:slim",
   "deno",
-  process.argv[2]
+  ...process.argv.slice(2)
 ]);
 
 deno.on("error", err => {
