@@ -1,6 +1,6 @@
 {
   "name": "@srcode/deno-run",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "CLI script for using/running ry/deno",
   "main": "./index.js",
   "bin": {
