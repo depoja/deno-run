@@ -7,5 +7,8 @@
     "deno": "./index.js"
   },
   "author": "Klint Mane",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }
