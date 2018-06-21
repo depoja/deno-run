@@ -1,0 +1,11 @@
+{
+  "name": "@srcode/deno-run",
+  "version": "0.0.1",
+  "description": "CLI script for using/running ry/deno",
+  "main": "./index.js",
+  "bin": {
+    "deno": "./index.js"
+  },
+  "author": "Klint Mane",
+  "license": "MIT"
+}
