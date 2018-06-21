@@ -2,6 +2,7 @@
   "name": "@srcode/deno-run",
   "version": "0.0.3",
   "description": "CLI script for using/running ry/deno",
+  "repository": "github:@srcode/deno-run",
   "main": "./index.js",
   "bin": {
     "deno": "./index.js"
